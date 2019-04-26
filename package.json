@@ -1,0 +1,19 @@
+{
+  "name": "asgard-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadviegas/frontend.git"
+  },
+  "author": "dadviegas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadviegas/frontend/issues"
+  },
+  "homepage": "https://github.com/dadviegas/frontend#readme"
+}
