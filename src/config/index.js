@@ -5,11 +5,11 @@ const storeElements = [
   theme,
 ];
 
-const store = state(storeElements);
+const config = state(storeElements);
 
-export default store;
+export default config;
 
 if (module.hot) {
   window.moduleApp = window.moduleApp || {};
-  window.moduleApp.store = store;
+  window.moduleApp.config = config;
 }

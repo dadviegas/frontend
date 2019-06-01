@@ -1,14 +1,7 @@
-import { actionsObjectCreator } from 'asgard-redux-helpers';
+import { actionCreator } from 'asgard-redux-helpers';
 
-const prefix = 'theme-handler/';
+const SET_THEME = 'SET_THEME';
+const setTheme = actionCreator('SET_THEME', name => { name });
 
-const rawConstants = [
-  {
-    name: 'SET_THEME', functionName: 'setTheme', prefix, callback: name => ({ name }),
-  },
-];
-
-const data = actionsObjectCreator(rawConstants);
-
-export const actions = data.actions; // eslint-disable-line
-export const constants = data.constants; // eslint-disable-line
+export const actions = { setTheme };
+export const constants = { SET_THEME };

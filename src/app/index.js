@@ -25,7 +25,7 @@ class App extends Component {
       this.setState({
         themeIndex: themeIndex + 1,
       });
-    }, 5000);
+    }, 2000);
   }
 
   render() {
