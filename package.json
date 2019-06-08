@@ -20,11 +20,11 @@
     "asgard-redux-helpers": "^1.0.11"
   },
   "devDependencies": {
-    "asgard-react-bundle": "^1.0.11",
-    "asgard-es-lint": "^1.0.11",
-    "asgard-bundle-app": "^1.0.11",
-    "asgard-yaml-config": "^1.0.11",
-    "asgard-local-ip": "^1.0.11"
+    "asgard-react-bundle": "^1.0.13",
+    "asgard-es-lint": "^1.0.13",
+    "asgard-bundle-app": "^1.0.13",
+    "asgard-yaml-config": "^1.0.13",
+    "asgard-local-ip": "^1.0.13"
   },
   "standard": {
     "ignore": [
